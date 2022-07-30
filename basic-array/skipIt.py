@@ -11,7 +11,12 @@
 
 
 numbers = [2, 1, 3, 2, 5, 1, 2, 6, 2, 7, 1, 5, 6, 3, 2, 6, 2, 1, 2]
+skipIt = []
 index = 0
 while (index < len(numbers)):
-    print(index)
+    skip = numbers[index] # this should start with equal to 2
+    skipIt.append(skip) # then index + 2, or 0 + 2, which would be 3 gets shovelled, and then next time, the iteration would be
     index += 1
+print(skipIt)
+
+
