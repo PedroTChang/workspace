@@ -16,7 +16,7 @@ index = 0
 while (index < len(numbers)):
     skip = numbers[index] # this should start with equal to 2
     skipIt.append(skip) # then index + 2, or 0 + 2, which would be 3 gets shovelled, and then next time, the iteration would be
-    index += 1
+    index += skip
 print(skipIt)
 
 
