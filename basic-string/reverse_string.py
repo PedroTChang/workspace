@@ -7,7 +7,4 @@ def reverse(string):
         result += string[index]
         index -= 1
     return result
-
 print(reverse("abcde"))
-
-
