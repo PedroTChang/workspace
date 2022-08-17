@@ -3,4 +3,6 @@
 //Output: “hElLo, HoW ArE YoUr pOrCuPiNeS ToDaY?” 
 
 
-function 
+function makeCapital("string") {
+  
+}
