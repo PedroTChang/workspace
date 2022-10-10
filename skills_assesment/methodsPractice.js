@@ -17,10 +17,17 @@
 
 
 // 5. Write a program that asks the user to enter a number, then prints the number times 10.
-
+// var input = window.prompt("enter a number");
+// var count = 0;
+// while (count <= 10) {
+//   console.log(input)
+//   input += 1
+// }
 
 // 6. Write a program that asks the user to enter two words, then prints both words on the same line in all capital letters.
-
+// var input1 = window.prompt("Enter word 1")
+// var input2 = window.prompt("Enter word 2")
+// console.log(input1.toUpperCase() + input2.toUpperCase())
 
 // 7. Write a program that asks the user to enter a word, then prints the number of letters in the word.
 
