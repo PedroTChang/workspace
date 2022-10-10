@@ -33,7 +33,10 @@
 
 
 // 8. Write a program that asks the user to enter a number, then prints "That's a negative number" if the number is less than 0.
-
+// var number = window.prompt("Enter a number: ");
+// if (number < 0) {
+//   window.alert("That is a negative number")
+// }
 
 // 9. Write a program that asks the user to enter two numbers, then prints the two numbers multiplied together.
 
