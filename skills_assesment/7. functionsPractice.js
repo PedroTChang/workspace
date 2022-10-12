@@ -30,9 +30,9 @@
 
 //6. Write a function that takes in three strings and returns a string that combines all three strings with spaces in between. Then run the function and print the result.
 // function combineString(string1, string2, string3) {
-//   return string1 + string2 + string3;
+//   return string1 + " " + string2 + " " + string3;
 // }
-// console.log(combineString("w", "o", "w"));
+// console.log(combineString("I", "like", "pie."));
 
 //7. Write a function that takes in a number and returns the number as a string. Then run the function and print the result.
 // function convertToString(number) {
