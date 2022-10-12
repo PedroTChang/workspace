@@ -3,13 +3,15 @@
 // Output: [99, 88, 4, 50]
 
 
-var numbers = [99, 101, 88, 4, 2000, 50];
-var index = 0;
-var lessHundred = [];
-while (index < numbers.length) {
-  if (numbers[index] < 100) {
-    lessHundred.push(numbers[index]);
+function lessThanHundred(array) {
+  var index = 0;
+  var lessHundred = [];
+  while (index < array.length) {
+    if (array[index] < 100) {
+      lessHundred.push(array[index]);
+    }
+    index++
   }
-  index++
+  return lessHundred
 }
-console.log(lessHundred)
+console.log(lessThanHundred([99, 101, 88, 4, 2000, 50]))
