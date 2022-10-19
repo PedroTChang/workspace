@@ -116,14 +116,14 @@
 
 //10. Start with an array of numbers and create a new array with only the odd numbers.
 //    For example, [2, 4, 5, 1, 8, 9, 7] becomes [5, 1, 9, 7].
-let numbers = [2, 4, 5, 1, 8, 9, 7];
-let odd = [];
-let index = 0;
-while (index < numbers.length) {
-	let number = numbers[index];
-	if (number % 2 !== 0) {
-		odd.push(number);
-	}
-	index++
-}
-	console.log(odd)
+// let numbers = [2, 4, 5, 1, 8, 9, 7];
+// let odd = [];
+// let index = 0;
+// while (index < numbers.length) {
+// 	let number = numbers[index];
+// 	if (number % 2 !==0) {
+// 		odd.push(number);
+// 	}
+// 	index++
+// }
+// 	console.log(odd)
