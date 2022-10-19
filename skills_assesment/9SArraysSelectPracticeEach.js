@@ -13,19 +13,22 @@
 //    For example, ["winner", "winner", "chicken", "dinner"] becomes ["winner", "winner"].
 // let strings = ["winner", "winner", "chicken", "dinner"];
 // let newStrings = [];
-// let index = 0;
-// while (index < strings.length) {
-// 	let string = strings[index];
-// 	if (string[0] === "w") {
-// 		newStrings.push(string);
+// index = 0;
+// strings.forEach(function (word) {
+// 	if (word[0] === "w") {
+// 		newStrings.push(word);
 // 	}
-// 	index++
-// }
-// console.log(newStrings)
+// 	index++;
+// });
+// console.log(newStrings);
 
 // 3. Start with an array of hashes and create a new array with only the hashes with prices greater than 5 (from the :price key).
 //    For example, [{name: "chair", price: 100}, {name: "pencil", price: 1}, {name: "book", price: 4}] becomes [{name: "chair", price: 100}].
-
+// let items = [
+// 	{name: "chair", price: 100},
+// 	{name: "book", price: 4},
+// 	{name: "pencil", price: 1}
+// ];
 
 // 4. Start with an array of numbers and create a new array with only the even numbers.
 //    For example, [2, 4, 5, 1, 8, 9, 7] becomes [2, 4, 8].
