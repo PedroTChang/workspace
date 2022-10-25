@@ -34,6 +34,13 @@
 
 // 6. Start with an array of hashes and create a new array with only the hashes with names shorter than 6 letters (from the :name key).
 //    For example, [{name: "chair", price: 100}, {name: "pencil", price: 1}, {name: "book", price: 4}] becomes [{name: "chair", price: 100}, {name: "book", price: 4}].
+// let items = [
+//    { name: "chair", price: 100 },
+//    { name: "pencil", price: 1 },
+//    { name: "book", price: 4 }
+// ]
+// var expensiveItems = items.filter(item => item.price > 5);
+// console.log(expensiveItems)
 
 // 7. Start with an array of numbers and create a new array with only the numbers less than 10.
 //    For example, [8, 23, 0, 44, 1980, 3] becomes [8, 0, 3].
@@ -46,3 +53,6 @@
 
 //10. Start with an array of numbers and create a new array with only the odd numbers.
 //    For example, [2, 4, 5, 1, 8, 9, 7] becomes [5, 1, 9, 7].
+// var numbers = [2, 4, 5, 1, 8, 9, 7];
+// let odd = numbers.filter(number => number % 2 != 0);
+// console.log(odd);
