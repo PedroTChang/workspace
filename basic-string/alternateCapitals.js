@@ -3,6 +3,15 @@
 //Output: “hElLo, HoW ArE YoUr pOrCuPiNeS ToDaY?” 
 
 
-function makeCapital("string") {
-  
+function makeCapital(string) {
+   const alternateCapital = [];
+   for (let i = 0; i < string.length; i++) {
+      if (i % 2 != 0) {
+         alternateCapital.push(string[i].toUpperCase());
+      } else {
+         alternateCapital.push(string[i]);
+      }
+   }
+   return alternateCapital.join("");
 }
+console.log(makeCapital("hello, how are your porcupines today?"))
